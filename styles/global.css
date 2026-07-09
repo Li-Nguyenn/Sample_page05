@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 *,
 *::before,
 *::after {
@@ -8,7 +11,7 @@
 
 :root {
   /* Colors */
-  --color-primary: #1f643b;
+  --color-primary: #116639;
   --color-accent: #f2db65;
   --color-accent-hover: #e2cb55;
   --color-bg-main: #f7f9f8;

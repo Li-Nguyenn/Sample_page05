@@ -11,7 +11,7 @@
 }
 
 .c-heading--secondary {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
 }
 
 .c-heading--tertiary {
@@ -35,7 +35,7 @@
 
 .c-button--primary {
   background-color: var(--color-accent);
-  color: var(--color-text-dark);
+  color: #0b0b0b;
   padding: 10px 24px;
 }
 
@@ -44,6 +44,7 @@
 }
 
 .c-button--secondary {
+  background-color: var(--color-accent);
   background: none;
   color: var(--color-bg-white);
   display: flex;
@@ -81,15 +82,6 @@
   right: 40px;
   width: 45px;
   height: 45px;
-  background-color: #007bff;
-  color: var(--color-bg-white);
   border: none;
   border-radius: 50%;
-  font-size: 1.2rem;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  z-index: 999;
 }

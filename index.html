@@ -7,37 +7,37 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <header class="p-header">
-  <div class="p-header__container">
-    <div class="p-header__logo">
+    <header class="l-header">
+  <div class="l-header__container">
+    <div class="l-header__logo">
       <img
         src="./img/Photo.png"
-        alt="Jamel Eusebio Avatar"
-        class="p-header__avatar"
+        alt="Jamel Eusebio"
+        class="l-header__avatar"
+        width="48px"
+        height="48px"
+        loading="eager"
       />
-      <span class="p-header__name">Jamel Eusebio</span>
-    </div>
-    
-    <div class="p-header__nav-wrapper">
-      <nav class="p-header__nav">
-        <ul class="p-header__menu">
-          <li class="p-header__item">
-            <a href="#" class="p-header__link p-header__link--active">Home</a>
+      <span class="l-header__name">Jamel Eusebio</span>
+    </div> 
+    <div class="l-header__nav-wrapper">
+      <nav class="l-header__nav">
+        <ul class="l-header__menu">
+          <li class="l-header__item">
+            <a href="#" class="l-header__link l-header__link--active">Home</a>
           </li>
-          <li class="p-header__item"><a href="#" class="p-header__link">Project</a></li>
-          <li class="p-header__item"><a href="#" class="p-header__link">Services</a></li>
-          <li class="p-header__item"><a href="#" class="p-header__link">Resume</a></li>
-          <li class="p-header__item"><a href="#" class="p-header__link">Testimonial</a></li>
-          <li class="p-header__item"><a href="#" class="p-header__link">About</a></li>
-          <li class="p-header__item"><a href="#" class="p-header__link">Article</a></li>
+          <li class="l-header__item"><a href="#projects" class="l-header__link">Project</a></li>
+          <li class="l-header__item"><a href="#services" class="l-header__link">Services</a></li>
+          <li class="l-header__item"><a href="#resume" class="l-header__link">Resume</a></li>
+          <li class="l-header__item"><a href="#testimonial" class="l-header__link">Testimonial</a></li>
+          <li class="l-header__item"><a href="#about" class="l-header__link">About</a></li>
+          <li class="l-header__item"><a href="#article" class="l-header__link">Article</a></li>
         </ul>
-      </nav>
-      
-      <button class="c-button c-button--primary p-header__btn-contact">CONTACT</button>
+      </nav> 
+      <button class="c-button c-button--primary l-header__btn-contact">CONTACT</button>
     </div>
   </div>
 </header>
-
     <main class="main-content">
       <section class="p-section-hero">
         <div class="p-section-hero__container">
@@ -59,14 +59,16 @@
             </div>
           </div>
           <div class="p-section-hero__image-wrapper">
-            <img src="./img/Man.png" alt="Jamel Eusebio" class="p-section-hero__image" />
+            <img src="./img/Man.png" alt="Jamel Eusebio" class="p-section-hero__image" 
+            width="1320px" height="592px" loading="eager" />
           </div>
         </div>
       </section>
-      <section class="p-section-clients">
+      <section class="p-section-clients" id="projects">
         <div class="p-section-clients__container">
           <div class="p-section-clients__intro">
             <h2 class="c-heading c-heading--secondary p-section-clients__title">
+              I work with over 279+ happy clients all over the world.
             </h2>
             <p class="p-section-clients__desc">
               Suspendisse eget ultricies felis, in lacinia lectus. Morbi
@@ -74,29 +76,35 @@
               sed ipsum tristique.
             </p>
           </div>
-          <div class="p-section-clients__grid">
-            <div class="p-section-clients__card">
-              <img src="./img/Amazon.png" alt="Amazon" class="p-section-clients__logo" />
-            </div>
-            <div class="p-section-clients__card">
-              <img src="./img/Google.png" alt="Google" class="p-section-clients__logo" />
-            </div>
-            <div class="p-section-clients__card">
-              <img src="./img/Spotify.png" alt="Spotify" class="p-section-clients__logo" />
-            </div>
-            <div class="p-section-clients__card">
-              <img src="./img/Dribbble.png" alt="Dribbble" class="p-section-clients__logo" />
-            </div>
-            <div class="p-section-clients__card">
-              <img src="./img/Microsoft.png" alt="Microsoft" class="p-section-clients__logo" />
-            </div>
-            <div class="p-section-clients__card">
-              <img src="./img/LinkedIn.png" alt="LinkedIn" class="p-section-clients__logo" />
-            </div>
-          </div>
+          <ul class="p-section-clients__grid">
+            <li class="p-section-clients__card">
+              <img src="./img/Amazon.png" alt="Amazon" class="p-section-clients__logo"
+              width="132.98px" height="40px" loading="lazy" />
+            </li>
+            <li class="p-section-clients__card">
+              <img src="./img/Google.png" alt="Google" class="p-section-clients__logo"
+              width="132.98px" height="40px" loading="lazy" />
+            </li>
+            <li class="p-section-clients__card">
+              <img src="./img/Spotify.png" alt="Spotify" class="p-section-clients__logo"
+              width="132.98px" height="40px" loading="lazy" />
+            </li>
+            <li class="p-section-clients__card">
+              <img src="./img/Dribbble.png" alt="Dribbble" class="p-section-clients__logo"
+              width="132.98px" height="40px" loading="lazy" />
+            </li>
+            <li class="p-section-clients__card">
+              <img src="./img/Microsoft.png" alt="Microsoft" class="p-section-clients__logo"
+              width="132.98px" height="40px" loading="lazy" />
+            </li>
+            <li class="p-section-clients__card">
+              <img src="./img/LinkedIn.png" alt="LinkedIn" class="p-section-clients__logo"
+              width="132.98px" height="40px" loading="lazy" />
+            </li>
+          </ul>
         </div>
       </section>
-      <section class="p-section-case-study">
+      <section class="p-section-case-study" id="resume">
         <div class="p-section-case-study__container">
           
           <div class="p-section-case-study__header">
@@ -113,24 +121,27 @@
                 class="p-section-case-study__nav-btn p-section-case-study__nav-btn--prev"
                 aria-label="Previous"
               >
-                ←
+                <img src="./img/ArrowLeft.svg" alt="Previous" class="p-section-case-study__nav-icon" />
               </button>
               <button
                 class="p-section-case-study__nav-btn p-section-case-study__nav-btn--next"
                 aria-label="Next"
               >
-                →
+                <img src="./img/ArrowRight.svg" alt="Next" class="p-section-case-study__nav-icon" />
               </button>
             </div>
           </div>
 
-          <div class="p-section-case-study__carousel">
-            <div class="p-section-case-study__slide">
+          <ul class="p-section-case-study__carousel">
+            <li class="p-section-case-study__slide">
               <div class="p-section-case-study__card">
                 <img
                   src="./img/Case1.png"
-                  alt="Merry Christmas Design"
+                  alt="Case Study 1"
                   class="p-section-case-study__image"
+                  width="424px"
+                  height="536px"
+                  loading="lazy"
                 />
                 <div class="p-section-case-study__content">
                   <span class="p-section-case-study__tech">Java &bull; HTML &bull; CSS</span>
@@ -141,14 +152,17 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </li>
 
-            <div class="p-section-case-study__slide">
+            <li class="p-section-case-study__slide">
               <div class="p-section-case-study__card">
                 <img
                   src="./img/Case2.png"
-                  alt="Relik Admin Dashboard"
+                  alt="Case Study 2"
                   class="p-section-case-study__image"
+                  width="424px"
+                  height="536px"
+                  loading="lazy"
                 />
                 <div class="p-section-case-study__content">
                   <span class="p-section-case-study__tech">Java &bull; HTML &bull; CSS</span>
@@ -159,14 +173,17 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </li>
 
-            <div class="p-section-case-study__slide">
+            <li class="p-section-case-study__slide">
               <div class="p-section-case-study__card">
                 <img
                   src="./img/Case3.png"
-                  alt="Bagohlog Blog"
+                  alt="Case Study 3"
                   class="p-section-case-study__image"
+                  width="424px"
+                  height="536px"
+                  loading="lazy"
                 />
                 <div class="p-section-case-study__content">
                   <span class="p-section-case-study__tech">Java &bull; HTML &bull; CSS</span>
@@ -177,8 +194,8 @@
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
 
           <div class="p-section-case-study__dots">
             <button
@@ -193,7 +210,7 @@
 
         </div>
       </section>
-      <section class="p-section-service">
+      <section class="p-section-service" id="services">
         <div class="p-section-service__container">
           
           <div class="p-section-service__header">
@@ -212,6 +229,9 @@
                   src="./img/Backend.png"
                   alt="Back-end Development"
                   class="p-section-service__img"
+                  width="344px"
+                  height="248px"
+                  loading="lazy"
                 />
               </div>
               <div class="p-section-service__content">
@@ -233,6 +253,9 @@
                   src="./img/Frontend.png"
                   alt="Front-end Development"
                   class="p-section-service__img"
+                  width="344px"
+                  height="248px"
+                  loading="lazy"
                 />
               </div>
               <div class="p-section-service__content">
@@ -254,6 +277,9 @@
                   src="./img/Writting.png"
                   alt="Content Writing"
                   class="p-section-service__img"
+                  width="344px"
+                  height="248px"
+                  loading="lazy"
                 />
               </div>
               <div class="p-section-service__content">
@@ -271,14 +297,15 @@
           </div>
         </div>
       </section>
-
-      <button class="c-theme-toggle" aria-label="Toggle theme">&#9728;</button>
+      <button class="c-theme-toggle" aria-label="Toggle theme">
+        <img src="./img/Light.svg" alt="Toggle Theme" class="c-theme-toggle__icon" />
+      </button>
       <section class="p-section-stat">
         <div class="p-section-stat__container">
           
           <div class="p-section-stat__item">
             <div class="p-section-stat__icon-wrapper">
-              <img src="./img/Stack.png" alt="Years of Experience" class="p-section-stat__icon" />
+              <img src="./img/Stack.svg" alt="Years of Experience" class="p-section-stat__icon" />
             </div>
             <div class="p-section-stat__number">23+</div>
             <div class="p-section-stat__label">Years of experience</div>
@@ -286,7 +313,7 @@
 
           <div class="p-section-stat__item">
             <div class="p-section-stat__icon-wrapper">
-              <img src="./img/Briefcase.png" alt="Completed Projects" class="p-section-stat__icon" />
+              <img src="./img/Briefcase.svg" alt="Completed Projects" class="p-section-stat__icon" />
             </div>
             <div class="p-section-stat__number">325+</div>
             <div class="p-section-stat__label">Completed Projects</div>
@@ -294,7 +321,7 @@
 
           <div class="p-section-stat__item">
             <div class="p-section-stat__icon-wrapper">
-              <img src="./img/SmileyWink.png" alt="Happy Clients" class="p-section-stat__icon" />
+              <img src="./img/SmileyWink.svg" alt="Happy Clients" class="p-section-stat__icon" />
             </div>
             <div class="p-section-stat__number">279+</div>
             <div class="p-section-stat__label">Happy Clients</div>
@@ -302,7 +329,7 @@
 
           <div class="p-section-stat__item">
             <div class="p-section-stat__icon-wrapper">
-              <img src="./img/Coffee.png" alt="Hours of Work" class="p-section-stat__icon" />
+              <img src="./img/Coffee.svg" alt="Hours of Work" class="p-section-stat__icon" />
             </div>
             <div class="p-section-stat__number">1652+</div>
             <div class="p-section-stat__label">Hours of Work</div>
@@ -310,7 +337,7 @@
 
         </div>
       </section>
-      <section class="p-section-testimonial">
+      <section class="p-section-testimonial" id="testimonial">
         <div class="p-section-testimonial__container">
           
           <div class="p-section-testimonial__info">
@@ -320,7 +347,9 @@
             </p>
             
             <div class="p-section-testimonial__quote-box">
-              <span class="p-section-testimonial__quote-icon">&#8222;</span>
+              <div class="p-section-testimonial__quote-icon">
+                <img src="./img/Double Quotes.svg" alt="Quote Icon" class="p-section-testimonial__quote-img">
+              </div>
               <blockquote class="p-section-testimonial__quote-text">
                 &ldquo;Great Designer, does great work and is very flexible with change. if you're a programmer and are looking for UI/UX designer is definitely well qualified for the job.&rdquo;
               </blockquote>
@@ -328,7 +357,10 @@
             
             <div class="p-section-testimonial__meta">
               <div class="p-section-testimonial__author">
-                <img src="./img/Cameron.png" alt="Cameron Williamson" class="p-section-testimonial__avatar">
+                <img src="./img/Cameron.png" alt="Cameron Williamson" class="p-section-testimonial__avatar"
+                width="72px"
+                height="72px"
+                loading="lazy" />
                 <div class="p-section-testimonial__author-info">
                   <h4 class="p-section-testimonial__name">Cameron Williamson</h4>
                   <p class="p-section-testimonial__role">Founder of <span class="p-section-testimonial__company">Relik</span></p>
@@ -336,15 +368,22 @@
               </div>
               
               <div class="p-section-testimonial__navigation">
-                <button class="p-section-testimonial__nav-btn p-section-testimonial__nav-btn--prev" aria-label="Previous slide">&larr;</button>
-                <button class="p-section-testimonial__nav-btn p-section-testimonial__nav-btn--next" aria-label="Next slide">&rarr;</button>
+                <button class="p-section-testimonial__nav-btn p-section-testimonial__nav-btn--prev" aria-label="Previous slide">
+                  <img src="./img/ArrowLeft.svg" alt="Previous" class="p-section-testimonial__nav-icon" />
+                </button>
+                <button class="p-section-testimonial__nav-btn p-section-testimonial__nav-btn--next" aria-label="Next slide">
+                  <img src="./img/ArrowRight.svg" alt="Next" class="p-section-testimonial__nav-icon" />
+                </button>
               </div>
             </div>
           </div>
           
           <div class="p-section-testimonial__graphic">
             <div class="p-section-testimonial__image-wrapper">
-              <img src="./img/Image.png" alt="Client Video Thumbnail" class="p-section-testimonial__image">
+              <img src="./img/Image.png" alt="Jamel Eusebio Video" class="p-section-testimonial__image" 
+              width="536px"
+              height="648px"
+              loading="lazy" />
               <button class="p-section-testimonial__play-btn" aria-label="Play video testimonial">
                 <span class="p-section-testimonial__play-icon">&#9654;</span>
               </button>
@@ -353,7 +392,7 @@
 
         </div>
       </section>
-      <section class="p-section-cta">
+      <section class="p-section-cta" id="about">  s
         <div class="p-section-cta__container">
           
           <div class="p-section-cta__content">
@@ -368,7 +407,7 @@
             
             <div class="p-section-cta__card">
               <div class="p-section-cta__icon-wrapper">
-                <img src="./img/Mail.png" alt="Mail Icon" class="p-section-cta__icon" />
+                <img src="./img/Mail.svg" alt="Mail Icon" class="p-section-cta__icon" />
               </div>
               <div class="p-section-cta__card-info">
                 <span class="p-section-cta__card-label">CHAT WITH ME</span>
@@ -378,7 +417,7 @@
             
             <div class="p-section-cta__card">
               <div class="p-section-cta__icon-wrapper">
-                <img src="./img/PhoneCall.png" alt="Phone Icon" class="p-section-cta__icon" />
+                <img src="./img/PhoneCall.svg" alt="Phone Icon" class="p-section-cta__icon" />
               </div>
               <div class="p-section-cta__card-info">
                 <span class="p-section-cta__card-label">CALL ME</span>
@@ -389,81 +428,77 @@
           </div>
         </div>
       </section>
-      <footer class="p-footer">
-      <div class="p-footer__container">
+    </main>
+      <footer class="l-footer" id="article">
+      <div class="l-footer__container">
         
-        <div class="p-footer__top">
+        <div class="l-footer__top">
           
-          <div class="p-footer__brand-col">
-            <div class="p-footer__logo">
-              <img src="./img/Photo.png" alt="Jamel Eusebio Avatar" class="p-footer__avatar">
-              <span class="p-footer__name">Jamel Eusebio</span>
+          <div class="l-footer__brand-col">
+            <div class="l-footer__logo">
+              <img src="./img/Photo.png" alt="Jamel Eusebio" class="l-footer__avatar"
+              wwidth="48px"
+              height="48px"
+              loading="lazy" />
+              <span class="l-footer__name">Jamel Eusebio</span>
             </div>
-            <address class="p-footer__address">
+            <address class="l-footer__address">
               4517 Ave. Manchester, Kentucky<br>
               39495, Los Angeles, California, USA
             </address>
           </div>
           
-          <div class="p-footer__links-col">
-            <ul class="p-footer__list">
-              <li class="p-footer__item"><a href="#" class="p-footer__link">Home</a></li>
-              <li class="p-footer__item"><a href="#" class="p-footer__link">About</a></li>
-              <li class="p-footer__item"><a href="#" class="p-footer__link">Resume</a></li>
-              <li class="p-footer__item"><a href="#" class="p-footer__link">Article</a></li>
+          <div class="l-footer__links-col">
+            <ul class="l-footer__list">
+              <li class="l-footer__item"><a href="#" class="l-footer__link">Home</a></li>
+              <li class="l-footer__item"><a href="#about" class="l-footer__link">About</a></li>
+              <li class="l-footer__item"><a href="#resume" class="l-footer__link">Resume</a></li>
+              <li class="l-footer__item"><a href="#article" class="l-footer__link">Article</a></li>
             </ul>
           </div>
           
-          <div class="p-footer__links-col">
-            <ul class="p-footer__list">
-              <li class="p-footer__item"><a href="#" class="p-footer__link">Services</a></li>
-              <li class="p-footer__item"><a href="#" class="p-footer__link">Projects</a></li>
-              <li class="p-footer__item"><a href="#" class="p-footer__link p-footer__link--bold">Pricing Plans</a></li>
-              <li class="p-footer__item"><a href="#" class="p-footer__link">Contact</a></li>
+          <div class="l-footer__links-col">
+            <ul class="l-footer__list">
+              <li class="l-footer__item"><a href="#services" class="l-footer__link">Services</a></li>
+              <li class="l-footer__item"><a href="#projects" class="l-footer__link">Projects</a></li>
+              <li class="l-footer__item"><a href="#pricing" class="l-footer__link">Pricing Plans</a></li>
+              <li class="l-footer__item"><a href="#" class="l-footer__link">Contact</a></li>
             </ul>
           </div>
           
-          <div class="p-footer__links-col">
-            <ul class="p-footer__list">
-              <li class="p-footer__item"><a href="#" class="p-footer__link">Facebook</a></li>
-              <li class="p-footer__item"><a href="#" class="p-footer__link">Twitter</a></li>
-              <li class="p-footer__item"><a href="#" class="p-footer__link">Instagram</a></li>
-              <li class="p-footer__item"><a href="#" class="p-footer__link">CodePen</a></li>
+          <div class="l-footer__links-col">
+            <ul class="l-footer__list">
+              <li class="l-footer__item"><a href="#" class="l-footer__link">Facebook</a></li>
+              <li class="l-footer__item"><a href="#" class="l-footer__link">Twitter</a></li>
+              <li class="l-footer__item"><a href="#" class="l-footer__link">Instagram</a></li>
+              <li class="l-footer__item"><a href="#" class="l-footer__link">CodePen</a></li>
             </ul>
           </div>
-
         </div>
-
-        <hr class="p-footer__divider">
-        
-        <div class="p-footer__bottom">
-          <p class="p-footer__copyright">
+        <hr class="l-footer__divider">
+        <div class="l-footer__bottom">
+          <p class="l-footer__copyright">
             All content &copy; 2006-Current Jamel Eusebio and respective copyright holders.
           </p>
         </div>
-
       </div>
     </footer>
     <script>
-  const themeToggle = document.querySelector('.c-theme-toggle');
-  const body = document.body;
-
-  // Kiểm tra xem trước đó người dùng có từng chọn dark mode chưa
-  const currentTheme = localStorage.getItem('theme');
-  if (currentTheme === 'dark') {
+      const themeToggle = document.querySelector('.c-theme-toggle');
+      const body = document.body;
+      const currentTheme = localStorage.getItem('theme');
+      if (currentTheme === 'dark') {
       body.classList.add('dark-mode');
-  }
-
-  themeToggle.addEventListener('click', () => {
+    }
+      themeToggle.addEventListener('click', () => {
       body.classList.toggle('dark-mode');
-      
-      // Lưu trạng thái vào trình duyệt
       if (body.classList.contains('dark-mode')) {
           localStorage.setItem('theme', 'dark');
       } else {
           localStorage.setItem('theme', 'light');
       }
-  });
-</script>
+    });
+    </script>
+   </script>
   </body>
 </html>
