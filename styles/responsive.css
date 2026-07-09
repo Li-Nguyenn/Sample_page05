@@ -1,0 +1,251 @@
+@media screen and (max-width: 992px) {
+  .p-header__nav {
+    display: none;
+  }
+
+  .p-section-hero__container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .p-section-hero__info {
+    padding: 30px;
+  }
+
+  .p-section-hero__desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .p-section-hero__actions {
+    justify-content: center;
+  }
+
+  .p-section-hero__image-wrapper {
+    align-self: center;
+    width: 100%;
+  }
+
+  .p-section-clients__container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .p-section-clients__grid > :nth-child(3n + 2) {
+    transform: none;
+  }
+  .p-section-clients__grid > :nth-child(3n + 2):hover {
+    transform: translateY(-4px);
+  }
+
+  .p-section-case-study__header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .p-section-case-study__title {
+    font-size: 2rem;
+  }
+
+  .p-section-case-study__desc {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  .p-section-case-study__carousel {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .p-section-case-study__image {
+    height: 350px;
+  }
+
+  .p-section-service__grid,
+  .p-section-service-extra__grid {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+  }
+
+  .p-section-testimonial__container {
+    flex-direction: column-reverse; 
+    gap: 50px;
+  }
+
+  .p-section-testimonial__graphic,
+  .p-section-testimonial__info {
+    width: 100%;
+  }
+  
+  .p-section-testimonial__graphic {
+    justify-content: center;
+  }
+
+  .p-section-cta__container {
+    flex-direction: column;
+    padding: 50px 40px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .p-section-cta__desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .p-section-cta__cards {
+    max-width: 100%;
+  }
+
+  .p-section-footer__top,
+  .p-footer__top {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+}
+
+/* --- MOBILE LANDSCAPE / PHABLET BREAKPOINT (768px) --- */
+@media screen and (max-width: 768px) {
+  .p-section-stat {
+    padding: 50px 0;
+  }
+
+  .p-section-stat__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 0;
+  }
+
+  .p-section-stat__item:not(:last-child) {
+    border-right: none;
+  }
+
+  .p-section-stat__item:nth-child(odd) {
+    border-right: 1px solid #e5e5e5;
+  }
+}
+
+/* --- MOBILE BREAKPOINT (600px) --- */
+@media screen and (max-width: 600px) {
+  .p-section-service__grid,
+  .p-section-service-extra__grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .p-section-service__main-title {
+    font-size: 1.8rem;
+  }
+}
+
+/* --- MOBILE PORTRAIT BREAKPOINT (576px) --- */
+@media screen and (max-width: 576px) {
+  .p-section-hero__title {
+    font-size: 2rem;
+  }
+
+  .p-section-clients__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .p-section-case-study__carousel {
+    grid-template-columns: 1fr;
+  }
+
+  .p-section-case-study__card {
+    max-width: 424px;
+    min-height: initial;
+  }
+
+  .p-section-case-study__image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  .p-section-case-study__header {
+    gap: 20px;
+  }
+
+  .p-section-case-study__nav {
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .p-section-testimonial {
+    padding: 60px 0;
+  }
+
+  .p-section-testimonial__main-title {
+    font-size: 1.9rem;
+  }
+
+  .p-section-testimonial__quote-box {
+    padding: 25px;
+  }
+
+  .p-section-testimonial__meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  
+  .p-section-testimonial__navigation {
+    align-self: flex-end; 
+  }
+
+  .p-section-cta {
+    padding: 40px 15px;
+  }
+  
+  .p-section-cta__container {
+    padding: 40px 20px;
+    border-radius: 16px;
+  }
+
+  .p-section-cta__title {
+    font-size: 1.8rem;
+  }
+  
+  .p-section-cta__card-value {
+    font-size: 1rem; 
+  }
+
+  .p-footer {
+    padding: 50px 0 30px;
+  }
+
+  .p-footer__top {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  
+  .p-footer__brand-col {
+    gap: 16px;
+  }
+
+  .p-footer__list {
+    gap: 12px;
+  }
+  
+  .p-footer__copyright {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
+
+/* --- SMALL MOBILE BREAKPOINT (480px) --- */
+@media screen and (max-width: 480px) {
+  .p-section-stat__container {
+    grid-template-columns: 1fr; 
+    gap: 35px;
+  }
+
+  .p-section-stat__item:nth-child(odd) {
+    border-right: none;
+  }
+}
